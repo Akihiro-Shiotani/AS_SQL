@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='AS_SQL',
-    version='1.0.0',
+    version='1.1.0',
     author='Akihiro-Shiotani',
     packages=find_packages(),
     install_requires=['requests'],
