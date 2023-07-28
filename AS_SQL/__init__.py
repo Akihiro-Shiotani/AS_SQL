@@ -2,7 +2,7 @@
 try:
     import numpy
 except ImportError:
-    print('OpenCV bindings requires "numpy" package.')
+    print('AS_SQL bindings requires "numpy" package.')
     print('Install it via command:')
     print('    pip install numpy')
     raise
@@ -10,7 +10,7 @@ except ImportError:
 try:
     import pyodbc
 except ImportError:
-    print('OpenCV bindings requires "pyodbc" package.')
+    print('AS_SQL bindings requires "pyodbc" package.')
     print('Install it via command:')
     print('    pip install pyodbc')
     raise
@@ -18,7 +18,7 @@ except ImportError:
 try:
     import pandas
 except ImportError:
-    print('OpenCV bindings requires "pandas" package.')
+    print('AS_SQL bindings requires "pandas" package.')
     print('Install it via command:')
     print('    pip install pandas')
     raise
@@ -26,7 +26,7 @@ except ImportError:
 try:
     import logging
 except ImportError:
-    print('OpenCV bindings requires "logging" package.')
+    print('AS_SQL bindings requires "logging" package.')
     print('Install it via command:')
     print('    pip install logging')
     raise
